@@ -20,4 +20,7 @@ This project applies **Reinforcement Learning (RL)** to the classic **Pokémon R
 2. The AI **observes game states** (player position, Pokémon HP, enemy stats, deaths, new exploration, badges ).  
 3. It **selects actions** (move, attack, switch Pokémon) based on a reward system.  
 4. The AI **learns** over time to optimize gameplay decisions.
-5. Uses Custom Gymnasium API to calculate and process **Rewards** foundation 
+5. Uses Custom Gymnasium API to calculate and process **Rewards** foundation.
+
+Just remember, if you're trying to run this in the future then you'll see some of the packages or modules will be out of date so make sure to update them
+Peace!
