@@ -48,9 +48,9 @@ class RedGymEnv(Env):
         self.map_frame_writer = None
         self.reset_count = 0
         self.all_runs = []
-        #self.total_evolution_reward = 0
-        #self.evolution_count = 0
-        #self.evolution_cancelled_count = 0
+        self.total_evolution_reward = 0
+        self.evolution_count = 0
+        self.evolution_cancelled_count = 0
 
         self.essential_map_locations = {
             v:i for i,v in enumerate([
